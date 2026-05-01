@@ -9,7 +9,7 @@
 
 **An AI mentor that refuses to write your code — and that's the whole point.**
 
-[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/revibe?style=social)](https://github.com/afri-bit/revibe)
+[![GitHub stars](https://img.shields.io/github/stars/afri-bit/revibe?style=social)](https://github.com/afri-bit/revibe)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Made for Copilot](https://img.shields.io/badge/Made%20for-GitHub%20Copilot-181717?logo=github)](https://github.com/features/copilot)
 
@@ -80,12 +80,12 @@ Come back tomorrow, run `/revibe-start`, and pick up exactly where you left off.
 |---|---|
 | `/revibe-start` | Begin or resume a session |
 | `/revibe-pause` | End the session and save progress |
-<!-- | `/revibe-status` | Show where you are in your plan |
+| `/revibe-status` | Show where you are in your plan |
 | `/revibe-review <topic>` | Revisit a past concept |
 | `/revibe-skip <reason>` | Skip the current lesson |
 | `/revibe-reveal <reason>` | Force-show a solution (rare; you'll redo a similar one) |
 | `/revibe-replan` | Adjust the plan if it isn't fitting |
-| `/revibe-exit` | End the course entirely | -->
+| `/revibe-exit` | End the course entirely |
 
 ## Prerequisites
 
@@ -129,15 +129,29 @@ To switch models in Copilot Chat, click the model name at the bottom of the chat
 revibe/
 ├── README.md                                ← you are here
 ├── AGENTS.md                                ← always-on cross-agent instructions
+├── CONTRIBUTING.md                          ← how to propose changes
+├── CODE_OF_CONDUCT.md                       ← Contributor Covenant
+├── SECURITY.md                              ← how to report concerns
+├── CHANGELOG.md                             ← user-facing change log
 ├── memory/
 │   └── MEMORY.md                            ← your profile + progress (built up as you learn)
 ├── learning_plan/                           ← your plan lives here (generated, not pre-shipped)
+│   ├── README.md                            ← how personal plans vs examples differ
+│   └── examples/                            ← reference plans contributors can crib from
 └── .github/
+    ├── workflows/
+    │   └── ci.yml                           ← markdown lint + link checks on PRs
     ├── agents/
     │   └── revibe.agent.md                  ← the Mentor's full ruleset
     └── prompts/
         ├── revibe-start.prompt.md           ← /revibe-start
-        └── revibe-pause.prompt.md           ← /revibe-pause
+        ├── revibe-pause.prompt.md           ← /revibe-pause
+        ├── revibe-status.prompt.md          ← /revibe-status
+        ├── revibe-review.prompt.md          ← /revibe-review
+        ├── revibe-skip.prompt.md            ← /revibe-skip
+        ├── revibe-reveal.prompt.md          ← /revibe-reveal
+        ├── revibe-replan.prompt.md          ← /revibe-replan
+        └── revibe-exit.prompt.md            ← /revibe-exit
 ```
 
 ## Philosophy

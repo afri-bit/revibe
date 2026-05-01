@@ -1,31 +1,33 @@
 # MEMORY.md
 
-> The Revibe Mentor reads this file at the start of every session and updates it as you progress. Don't edit by hand unless you know the schema.
+> The Revibe Mentor reads this file at the start of every session and updates it as you progress. Prefer letting the Mentor edit it; change it by hand only if you understand the schema below.
 
 ## Learner Profile
 
-(empty — will be filled during intake)
+- name:
+- learning_goal:
+- why:
+- background:
+- preferred_style:
+- time_per_session:
 
 ## Active Plan
 
-(none yet)
+- plan_file:
+- current_module:
+- current_lesson:
+- last_session_on:
 
 ## Concepts Mastered
 
-(none yet)
+(only list concepts where you explained why your solution works)
 
 ## Concepts In Progress
 
-(none yet)
-
 ## Recurring Misconceptions
-
-(none yet)
 
 ## Skipped / Deferred
 
-(none yet)
-
 ## Session Log
 
-<!-- newest entries at the bottom; never delete past entries -->
+(append-only, newest at the bottom; do not delete past entries)

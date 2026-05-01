@@ -10,5 +10,5 @@ End this Revibe session cleanly. Before saying goodbye:
    - Move any newly mastered concepts to "Concepts Mastered" (only those I explained reasoning for).
    - Note any misconceptions in "Recurring Misconceptions."
    - Append a new entry to the Session Log: today's date, what we covered, what I learned, what's next.
-2. Update the active plan file in `learning_plan/`: change lesson statuses where they advanced.
+2. Update the active plan file in `learning_plan/` (only the file with `status: active` in its frontmatter; never edit `learning_plan/examples/`): change lesson statuses where they advanced.
 3. Then give me a short, warm sign-off — one or two sentences — and tell me what we'll likely pick up next time.

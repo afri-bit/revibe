@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.prompt.md": "markdown"
+  },
+  "markdownlint.configFile": ".markdownlint.json"
+}
