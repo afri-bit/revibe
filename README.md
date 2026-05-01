@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src=".docs/img/revibe.svg" alt="Revibe logo" width="60%"/>
+<img src=".docs/img/revibe.svg" alt="Revibe logo" width="50%"/>
 
 
 ### *Stop vibe-coding. Start understanding.*
